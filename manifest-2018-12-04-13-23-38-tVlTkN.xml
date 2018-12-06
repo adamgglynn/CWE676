@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<container>
+  <testcase id="110311" type="Source Code" status="Accepted" submissionDate="2013-05-21" language="C++" author="NSA/Center for Assured Software" numberOfFiles="4" testsuiteid="86 108">
+    <description><![CDATA[CWE: 676 Use of Potentially Dangerous Function<br/> Sinks:<br/> GoodSink: Use cin after specifying the length of the input<br/> BadSink : Use cin without specifying the length of the input<br/> Flow Variant: 18 Control flow: goto statements]]></description>
+    <file path="shared/108/io.c" language="C" size="5429" checksum="bcf531cb1922c03347031698c1c72eddadbf0d88"/>
+    <file path="shared/108/std_testcase_io.h" language="C" size="1457" checksum="56de16829d5ac9d8086670ee5098217aa6694d26"/>
+    <file path="shared/108/std_testcase.h" language="C" size="4004" checksum="d1801c64bc49d5d05fb3d55f7cc7e3a925c47e2f"/>
+    <file path="000/110/311/CWE676_Use_of_Potentially_Dangerous_Function__basic_18.cpp" language="C++" size="2399" checksum="ba0823db4a6098c44641fd601f0e855c420cc58f">
+      <mixed line="37" name="CWE-676: Use of Potentially Dangerous Function"/>
+    </file>
+  </testcase>
+</container>
